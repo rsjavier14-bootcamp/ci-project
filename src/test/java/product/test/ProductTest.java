@@ -68,7 +68,7 @@ class ProductTest {
 			new Product("product1", Math.addExact(max, 1));
 		});
 
-		assertEquals("integer overflow", ex.getMessage());
+		assertEquals("integer overflowW", ex.getMessage());
 	}
 
 	/**
